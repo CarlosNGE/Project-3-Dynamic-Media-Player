@@ -10,7 +10,7 @@ function init() {
    myCues = [
         
         { seconds: 4, callback: func1 },
-        { seconds: 7, callback: func2 },
+        { seconds: 10, callback: func2 },
     
     ];
 
@@ -25,12 +25,17 @@ function init() {
 function func1() {
     let display = document.querySelector(".show");
     display.classList.remove("hide");
+    setTimeout(() => {
+        document.querySelector(".show").classList.toggle("hide");
+    }, 4000);
+
 
      console.log(display);
 }
 
 function func2() {
-    document.querySelector("#link").src ="https://www.youtube.com/watch?v=KQu8FOjJXdI";
+    let display = document.querySelector(".album");
+    display.classList.remove("hide");
 }
 
 
