@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 
     <script src="js/video_helpers.js" defer></script>
@@ -13,29 +14,28 @@
 </head>
 <body>
     
-    <h1>Adding Rich Media to a Web page</h1>
-
-   
-
-    <h2>Video Example</h2>
+    <section class="title">
+        <h1>WOODKID</h1>
+        <h2>Yoann Lemoine</h2>
+    </section>
 
     <section class="info">
 
-    <video id="video" class="video" controls>
-        <source  src="video/woodkidconcert.mp4" type="video/webm">
-        <source src="video/leverage-a-synergy.webm" type="video/webm">
-        <track label="French" kind="captions" srclang="fr" src="captions/captions.vtt" default/>
-        <track label="English" kind="subtitles" srclang="en" src="subtitles/ensubtitles.vtt">
-        <track label="Español" kind="subtitles" srclang="es" src="subtitles/ensubtitles.vtt">
-            
-        <p> test We are sorry, but your brouser doesn't not apper to play the audio file</p>
-    </video>
+        <video id="video" class="video" controls>
+            <source  src="video/woodkidconcert.mp4" type="video/webm">
+            <source src="video/leverage-a-synergy.webm" type="video/webm">
+            <track label="French" kind="captions" srclang="fr" src="captions/captions.vtt" default/>
+            <track label="English" kind="subtitles" srclang="en" src="subtitles/ensubtitles.vtt">
+            <track label="Español" kind="subtitles" srclang="es" src="subtitles/ensubtitles.vtt">
+                
+            <p> test We are sorry, but your brouser doesn't not apper to play the audio file</p>
+        </video>
 
   
 
-    <section>
+    <!--<section>
         <iframe id="link" src="start.html"></iframe>
-    </section>
+    </section>-->
 
    
 
@@ -47,13 +47,13 @@
 
 </section>
 
-<fieldset>
-    <legend>Controls</legend>
-    <input type="button" id="play" value="Play">
-    <input type="button" id="pause" value="Pause">
-    <input type="button" id="stop" value="Stop">
-    <input type="button" id="mute" value="Mute">
-    <input type="button" id="unmute" value="Unmute">
+<fieldset class="mplayer">
+    
+    <button id="play"><i class="fa fa-play"></i></button>
+    <button id="pause"><i class="fa fa-pause"></i></button>
+    <button id="stop"><i class="fa fa-stop"></i></button>
+    <button id="mute"><i class="fa fa-volume-down"></i></button>
+    <button id="unmute"><i class="fa fa-volume-up"></i></button>
 </fieldset>
 
     

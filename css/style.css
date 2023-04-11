@@ -1,3 +1,15 @@
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-size: 40px;
+}
+
+.title h2{
+    font-size: 30px;
+}
+
 .video{
     width: 400px;
 }
@@ -13,4 +25,46 @@
 .info{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+
+.mplayer{
+    border: none;
+    
+}
+
+button{
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em ;
+  transform: translateY(-0.15em);
+}
+
+#play{
+    background-color: #828f98;
+}
+
+#pause{
+    background-color: #5c636b;
+}
+
+#stop{
+    background-color: #405158;
+}
+
+#mute{
+    background-color: #203641;
+}
+
+#unmute{
+    background-color: #1a2c36;
 }
