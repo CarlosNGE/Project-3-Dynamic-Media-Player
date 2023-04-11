@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+    <script src="js/video_helpers.js" defer></script>
+    <script type="module" src="js/modules/cuepoints.js"></script>
+    <script type="module" src="js/mainscript.js"></script>
+</head>
+<body>
+    
+    <h1>Adding Rich Media to a Web page</h1>
+
+   
+
+    <h2>Video Example</h2>
+
+    <section class="info">
+
+    <video id="video" class="video" controls>
+        <source  src="video/woodkidconcert.mp4" type="video/webm">
+        <source src="video/leverage-a-synergy.webm" type="video/webm">
+        <track label="French" kind="captions" srclang="fr" src="captions/captions.vtt" default/>
+        <track label="English" kind="subtitles" srclang="en" src="subtitles/ensubtitles.vtt">
+        <track label="Español" kind="subtitles" srclang="es" src="subtitles/ensubtitles.vtt">
+            
+        <p> test We are sorry, but your brouser doesn't not apper to play the audio file</p>
+    </video>
+
+  
+
+    <section>
+        <iframe id="link" src="start.html"></iframe>
+    </section>
+
+   
+
+    <div class="show hide">
+        <h2>WOODKID</h2>
+		<p>Yoann Lemoine</p>
+        <img src="images/woodkid.jpg">
+	</div>
+
+</section>
+
+<fieldset>
+    <legend>Controls</legend>
+    <input type="button" id="play" value="Play">
+    <input type="button" id="pause" value="Pause">
+    <input type="button" id="stop" value="Stop">
+    <input type="button" id="mute" value="Mute">
+    <input type="button" id="unmute" value="Unmute">
+</fieldset>
+
+    
+
+</body>
+</html>
