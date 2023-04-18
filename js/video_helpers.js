@@ -17,6 +17,7 @@ const video = document.querySelector('.video');
         document.getElementById('stop').addEventListener('click', (e)=>{
             video.pause();
             video.currentTime = 0;
+            
         });
 
         document.getElementById('mute').addEventListener('click', (e)=>{
