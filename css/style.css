@@ -1,5 +1,8 @@
-html{
+
+
+body{
     background-color: #f3f3f4;
+    margin: 0;
 }
 
 .title{
@@ -18,10 +21,27 @@ html{
     width: 400px;
 }
 
+.video2{
+    width: 800px;
+    height: 400px;
+}
+
+.video3{
+    width: 800px;
+    height: 400px;
+}
+
+.piano{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .show{
     background-color: #f3f3f4;
     margin-left: 4rem;
 }
+
 
 .artist{
     width: 600px;
@@ -40,14 +60,60 @@ html{
 
 .artist img{
     align-items: center;
-    width: 500px;
+    width: 400px;
     padding: 1.5rem;
     margin: auto;
     display: block;
 }
 
+.album{
+    background-color: #f3f3f4;
+    margin-right: 4rem;
+}
+
+.song{
+    width: 600px;
+    margin: 0;
+}
+
+.song h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.song p{
+    text-align: center;
+    font-size: 19px;
+}
+
+.song img{
+    align-items: center;
+    width: 325px;
+    padding: 1.5rem;
+    margin: auto;
+    display: block;
+}
+
+.notes{
+    background-color: #303031;
+    margin-left: 4rem;
+}
+
+.notes img{
+    width: 500px;
+}
+
+.oficial{
+    width: 600px;
+    margin: 1rem;
+}
+
 
 .hide{
+    display: none;
+}
+
+#you{
     display: none;
 }
 
